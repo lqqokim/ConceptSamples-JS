@@ -30,7 +30,7 @@ var global = global || {};
 
     var DatePickerBase = global.ui.DatePickerBase;
 
-    Datepicker.prototype = Object.create(DatePickerBase);
+    Datepicker.prototype = Object.create(DatePickerBase.prototype);
     Datepicker.prototype.constructor = Datepicker;
 
     Datepicker.prototype.parentFunction = function() {
